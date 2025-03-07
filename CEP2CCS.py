@@ -32,7 +32,7 @@ if dado:
         #print(f'CISP: {dado[0][1]}') #Removido pois nao é 100% preciso no momento
         print(f'AISP: {dado[0][2]}')
         print(f'RISP: {dado[0][3]}')
-        print(f'UNIDADE TERRITORIAL: {dado[0][4]}') #Removido pois nao é 100% preciso no momento
+        #print(f'UNIDADE TERRITORIAL: {dado[0][4]}') #Removido pois nao é 100% preciso no momento
         if dado[0][5] == 1:
             print('STATUS: Ativo')
         else: print('STATUS: Inativo')
